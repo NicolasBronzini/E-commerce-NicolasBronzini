@@ -1,0 +1,14 @@
+.container{
+    min-height: 800px;
+}
+.btnClear{
+    background-color: rgb(1, 124, 48);
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding:3px 15px ;
+    letter-spacing: 2px;
+    position: absolute;
+    top:70px;
+    right: 150px;
+}

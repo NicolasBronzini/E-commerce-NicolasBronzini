@@ -1,0 +1,36 @@
+.barra{
+    background-color: #1C3879 !important;
+}
+.links-barra{
+color: white !important;
+background-color: #1C3879;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+ }
+ .titulo{
+    color: white !important;
+    text-decoration: none !important;
+ }
+ .boton_1{
+    color: wheat !important;
+    background-color: #5c6b8d !important;
+
+ }
+ .botones{
+   display: flex;
+   
+ }
+ .bnt_carrito{
+   margin-right: 20px;
+ }
+ .carrito{
+   width: 40px;
+   background-color: transparent;
+   border: none;
+   margin-right:40px ;
+   display: inline-flex;
+   height:auto;
+ }
+ 

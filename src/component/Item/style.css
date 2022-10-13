@@ -1,0 +1,60 @@
+
+.CardOfertas{
+    width: 400px;
+    height: auto;
+    margin: auto;
+    margin: 20px;
+    cursor: pointer;
+    padding: 50px;
+    background-color: #7895B2 !important;
+    
+}
+.CardOfertas:hover {
+    transform: scale(1.06);
+    transition: 0.3s ease;
+}
+.CardBody{
+   font-size: 1.3rem !important;
+  
+}
+.card-img{
+    width:auto;
+    height: 300px;
+}
+
+.precio{
+    display: flex;
+    justify-content: space-around;
+}
+.botonCard{
+    width: max-content;
+   
+    height: 50px;
+    color: black;
+}
+.botonVer{
+    background-color: rgb(1, 124, 48);
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+@media (max-width: 900px) {
+    .CardOfertas{
+        width: 100%;
+        padding: 20px !important;
+        margin: 50px;
+    }
+    .card-img{
+        height: auto;
+        max-width:800px ;
+    }
+    
+}
+@media (max-width: 500px){
+    .CardOfertas{
+        width: 100%;
+        padding: 20px !important;
+        margin: 10px;
+    }
+}
